@@ -5,5 +5,10 @@ export const GitHubImages = styled.div`
 
   img {
     height: 157px;
+
+    @media (max-width: 768px) {
+      width: 100%;
+      height: auto;
+    }
   }
 `

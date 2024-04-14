@@ -4,7 +4,11 @@ import Text from '../../components/Text'
 import Avatar from '../../components/Avatar'
 import { Descricao, BotaoTema, SidebarContainer } from './styles'
 
-function Sidebar() {
+type Props = {
+  trocaTema: () => void
+}
+
+function Sidebar({ trocaTema }: Props) {
   return (
     <aside>
       <SidebarContainer>
@@ -16,7 +20,9 @@ function Sidebar() {
         <Descricao principal fontSize={12}>
           Desenvolvedor Fullstack Python
         </Descricao>
-        <BotaoTema type="button">Trocar tema</BotaoTema>
+        <BotaoTema type="button" onClick={trocaTema}>
+          Trocar tema
+        </BotaoTema>
       </SidebarContainer>
     </aside>
   )
