@@ -17,6 +17,33 @@ function Projects() {
         <li>
           <Projeto />
         </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
+        <li>
+          <Projeto />
+        </li>
       </Lista>
     </section>
   )

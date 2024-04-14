@@ -7,10 +7,15 @@ import { Paragrafo } from './styles'
 export type Props = {
   children: string
   principal: boolean
+  fontSize?: number
 }
 
 function Text(props: Props) {
-  return <Paragrafo principal={props.principal}>{props.children}</Paragrafo>
+  return (
+    <Paragrafo principal={props.principal} fontSize={props.fontSize}>
+      {props.children}
+    </Paragrafo>
+  )
 }
 
 export default Text
